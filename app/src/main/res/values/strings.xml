@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">only Shopping</string>
+    <string name="Store_name">Cambridge</string>
+    <string name="title_activity">HomeActivity</string>
+    <string name="Search">Search View</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="home_screen_opt_1">Let\'s Start</string>
+    <string name="home_screen_opt_2">Find Store</string>
+
+    <string name="Category_1">Men</string>
+    <string name="Category_2">Women</string>
+    <string name="Category_3">Children</string>
+
+    <string name="address_activity_name">Store detail</string>
+
+    <string name="google_maps_key">AIzaSyDDoxCgVUhCKWj7asDQqQhV7a-gelgREr0</string>
+    <string name="payment_screen_bt_1">Ondelivery</string>
+    <string name="payment_screen_bt_2">Online payment</string>
+    <string name="thankyou_text">Your order have been placed soon will you get your order 4 - 5 working days. you can read our <a href="https://www.google.com.pk">Terms &amp; conditions</a></string>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.intellisense.shopping.PaymentActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/actionBar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/place_autocomplete_search_text"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/cartImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cart"
+                android:layout_marginTop="10sp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/line"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:weightSum="3"
+            android:background="#cd990b"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/actionBar">
+        </LinearLayout>
+        <TextView
+            android:id="@+id/PayMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method"
+            android:layout_centerHorizontal="true"
+            android:textSize="35dp"
+            android:layout_below="@id/line"
+            />
+
+       <!-- <LinearLayout
+            android:id="@+id/underline"
+            android:orientation="horizontal"
+            android:layout_below="@id/PayMethod"
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="34dp"
+            android:weightSum="3"
+            android:background="@color/place_autocomplete_search_text"
+            >
+        </LinearLayout>-->
+
+
+        <Button
+            android:id="@+id/Bt_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_screen_bt_1"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:background="@drawable/button_2"
+            android:layout_marginTop="100sp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/PayMethod"
+            />
+
+        <Button
+            android:id="@+id/Bt_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_screen_bt_2"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:background="@drawable/button_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/Bt_1"/>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/place_autocomplete_search_text"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:id="@+id/hardCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/pricetView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 Rs."
+                android:textSize="30dp"
+                android:textColor="@color/base_color"
+                android:layout_margin="15dp"
+                android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</layout>

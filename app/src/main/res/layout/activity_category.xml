@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.intellisense.shopping.CategoryActivity"
+    >
+<RelativeLayout
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:background="@drawable/home_bg"
+    >
+
+    <ImageView
+        android:id="@+id/menImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/men_black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp" />
+
+    <Button
+        android:id="@+id/menBt"
+        android:text="@string/Category_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#cd990b"
+        android:textSize="35sp"
+        android:background="@drawable/button_1"
+        android:layout_below="@+id/menImg"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/womenImg"
+        android:layout_height="wrap_content"
+        android:background="@drawable/women_black"
+        android:layout_width="wrap_content"
+        android:paddingBottom="20sp"
+        android:layout_below="@+id/menBt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5sp" />
+
+    <Button
+        android:id="@+id/womenBt"
+        android:text="@string/Category_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#cd990b"
+        android:textSize="35sp"
+        android:background="@drawable/button_1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/womenImg"/>
+
+    <ImageView
+        android:id="@+id/childImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/child_black"
+        android:layout_below="@+id/womenBt"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/childBt"
+        android:text="@string/Category_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#cd990b"
+        android:textSize="35sp"
+        android:background="@drawable/button_1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/childImg" />
+
+
+</RelativeLayout>
+</layout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.intellisense.shopping.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16sp"
+        android:background="@drawable/home_bg"
+         >
+
+
+
+
+    <Button
+        android:text="@string/home_screen_opt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:background="@drawable/button_1"
+        android:textColor="#cd990b"
+        android:textSize="35sp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:text="@string/home_screen_opt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@drawable/button_1"
+        android:textColor="#cd990b"
+        android:textSize="35sp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    </RelativeLayout>
+</layout>

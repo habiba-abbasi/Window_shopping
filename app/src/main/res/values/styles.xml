@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+
+ </style>
+
+    <style
+        name="StoreBigRatingBar"
+        parent="@android:style/Widget.RatingBar">
+        <item
+            name="android:progressDrawable">@drawable/home_button</item>
+    </style>
+
+    <style name="spendsScrollBar">
+
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarThumbVertical">@color/base_color</item>
+
+        <item name="android:scrollbarTrackVertical">@drawable/track</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+ </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+            <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily" >sans-serif-light</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily" >sans-serif-light</item>
+    </style>
+
+    <style name="CustomRating" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">
+            @drawable/custom_ratingbar
+        </item>
+        <item name="android:minHeight">
+            30dp
+        </item>
+        <item name="android:maxHeight">
+            30dp
+        </item>
+    </style>
+
+</resources>

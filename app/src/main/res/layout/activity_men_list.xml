@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="4dp"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_launcher" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/manmenuType"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+
+            android:text="Cambridge"
+            android:textAlignment="center"
+
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/colorView"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:text="detail"
+            android:textAlignment="center"
+            android:textColor="@color/black_overlay"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/pricetView"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Price"
+            android:textAlignment="center"
+            android:textColor="@color/black_overlay"
+            android:textSize="15sp"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+</LinearLayout>

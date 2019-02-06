@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a6cfe1</color>
+    <color name="colorPrimaryDark">#0d0638</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="base_color">#e79e0b</color>
+    <color name="women_activity_Layout_color">#fc38076c</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="maps_overlay">#212121</color>
+    <color name="child_activity_Layout_color">#012d2e</color>
+    <color name="child_activity_shaded_color">#e3eab3</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+</resources>
